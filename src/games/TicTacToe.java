@@ -35,6 +35,7 @@ public class TicTacToe {
     private static StringBuilder drawBoard(int[] xS, int[] oS) {
         StringBuilder board = new StringBuilder();
 
+        //TODO help
         for (int i: xS) {
             System.out.println(positions[i]);
             System.out.println(positions[i]+1);
